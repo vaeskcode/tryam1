@@ -1,0 +1,6 @@
+declare -x DIB_ARGS="--no-tmpfs --image-size 2.5G ubuntu ubuntucustom vm cloud-init-datasources -o Ubuntu-20.04.1-202008 -t raw"
+declare -x DIB_BOOTLOADER_DEFAULT_CMDLINE="net.ifnames=0 biosdevname=0"
+declare -x DIB_CLOUD_INIT_DATASOURCES="ConfigDrive, NoCloud,Ec2"
+declare -x DIB_INSTALLTYPE_pip_and_virtualenv="package"
+declare -x DIB_PYTHON_EXEC="/usr/bin/python3"
+declare -x DIB_RELEASE="focal"

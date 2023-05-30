@@ -1,0 +1,1 @@
+--no-tmpfs --image-size 2.5G ubuntu ubuntucustom vm cloud-init-datasources -o Ubuntu-20.04.1-202008 -t raw
